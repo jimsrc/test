@@ -81,6 +81,8 @@ Y luego hacemos click en "Create repository".
 Ahora vamos a adherir nuestra repo de Github a nuestra repo local:
 ```
 $ git remote add origin git@github.com:TuUsuario/mireponueva.git
+# si no funciona, puedes probar con:
+$ git remote add origin https://github.com/TuUsuario/mireponueva.git
 ```
 Lo siguente es subir nuestra repo local a nuestra repo en Github, donde nos pedira nuestro usuario ```TuUsuario``` y password (para evitar q siempre nos pregunte esto, ver https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account):
 ```
